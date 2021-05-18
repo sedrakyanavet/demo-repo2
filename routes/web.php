@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/index', [\App\Http\Controllers\TestController::class, 'index']);
+
+
+Route::get('test', [\App\Http\Controllers\TestController::class, 'testForGit']);

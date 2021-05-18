@@ -24,6 +24,6 @@ class TestController extends Controller
 
     public function testForGit()
     {
-        echo 'For git';
+        echo 'quick start';
     }
 }

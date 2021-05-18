@@ -21,4 +21,9 @@ class TestController extends Controller
         $state->save();
         dd($state);
     }
+
+    public function testForGit()
+    {
+        echo 'For git';
+    }
 }
